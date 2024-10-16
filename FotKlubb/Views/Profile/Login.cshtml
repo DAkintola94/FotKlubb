@@ -1,0 +1,19 @@
+﻿@model FotKlubb.Models.LoginProfileModel
+
+<body class="login-stylefront">
+<form asp-controller="Profile" asp-action="Login" method="post" class="login-formstyle">
+    <input placeholder="Brukernavn" asp-for="Username" required />
+    <input placeholder="Passord" asp-for="Password" required />
+
+    
+    <div class="checkbox-container">
+        <label for="rememberId">
+            <input type="checkbox" id="rememberId" asp-for="RememberMe" />
+            Husk meg?
+        </label>
+        <a id="forgotId" href="https://localhost:32769/Profile/ForgotPassword">Glemt passord?</a>
+    </div>
+
+    <button id="loginBtn">Login</button>
+</form>
+</body>

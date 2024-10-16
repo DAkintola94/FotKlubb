@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: Testingtesting1234
+      MYSQL_DATABASE: Websitebase
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Testingtesting1234
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+  fotklubb:
+    image: ${DOCKER_REGISTRY-}fotklubb
+    build:
+      context: .
+      dockerfile: FotKlubb/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - mariadb
+    environment:
+      connectionStrings__DefaultConnection: "Server=mariadb;Database=FootyBase;User=root;Password=Testingtesting1234"
+
+volumes:
+  mariadb_data: {}

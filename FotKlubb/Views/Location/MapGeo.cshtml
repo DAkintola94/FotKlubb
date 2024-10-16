@@ -1,0 +1,42 @@
+﻿@model FotKlubb.Models.PositionModel
+
+<head>
+
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+		  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+		  crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+			integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+			crossorigin="">
+	</script>
+	<link href="~/css/site.css" rel="stylesheet" />
+
+	<title>
+		Leaflet Map
+	</title>
+	<button type="button" id="markerClear"> Fjern markør</button>
+
+</head>
+
+<body>
+	<div id="map">
+	</div>
+
+		<form method="post">
+			<div>
+				<input type="text" id="latit" placeholder="Latitude" class="form-control" asp-controller="Location" asp-for="Latitude" readonly />
+				<input type="text" id="longi" placeholder="Longitude" class="form-control" asp-controller="Location" asp-for="Longitude" readonly />
+				<input type="text" id="bes" placeholder="Beskrivelse av kampen" class="form-control" asp-controller="Location" asp-for="Description" required />
+				<button type="submit"> Send </button>
+
+			</div>
+		</form>
+
+
+</body>
+<script>
+	var modelIntoJson = @Html.Raw(Json.Serialize(Model))//formaterer modelen til Json
+		//variable for å sende modelen til ekstern js
+		console.log(modelIntoJson);
+</script>
+<script src="~/js/site.js"></script>
