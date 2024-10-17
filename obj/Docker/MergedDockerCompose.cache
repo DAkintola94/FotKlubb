@@ -12,7 +12,7 @@ services:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_HTTP_PORTS: "8080"
       ASPNETCORE_HTTPS_PORTS: "8081"
-      connectionStrings__DefaultConnection: Server=mariadb;Database=FootyBase;User=root;Password=Testingtesting1234
+      connectionStrings__DefaultConnection: Server=mariadb;Database=WebsiteBase;User=root;Password=Testingtesting1234
     image: fotklubb
     networks:
       default: null

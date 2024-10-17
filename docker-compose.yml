@@ -24,7 +24,7 @@ services:
     depends_on:
       - mariadb
     environment:
-      connectionStrings__DefaultConnection: "Server=mariadb;Database=FootyBase;User=root;Password=Testingtesting1234"
+      connectionStrings__DefaultConnection: "Server=mariadb;Database=WebsiteBase;User=root;Password=Testingtesting1234"
 
 volumes:
   mariadb_data: {}

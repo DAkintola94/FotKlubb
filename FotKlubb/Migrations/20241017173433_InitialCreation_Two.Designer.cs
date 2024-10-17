@@ -4,6 +4,7 @@ using FotKlubb.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FotKlubb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241017173433_InitialCreation_Two")]
+    partial class InitialCreation_Two
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,22 +106,32 @@ namespace FotKlubb.Migrations
 
             modelBuilder.Entity("FotKlubb.Models.UsersActivity", b =>
                 {
-                    b.Property<Guid>("ActivityId")
+                    b.Property<Guid>("UsersActivityId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime>("ActivityDate")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<Guid>("LoginId")
+                    b.Property<Guid>("LoginId1")
                         .HasColumnType("char(36)");
 
-                    b.Property<string>("UserName")
-                        .HasColumnType("longtext");
+                    b.HasKey("UsersActivityId");
 
-                    b.HasKey("ActivityId");
+                    b.HasIndex("LoginId1");
 
                     b.ToTable("UserActivity");
+                });
+
+            modelBuilder.Entity("FotKlubb.Models.UsersActivity", b =>
+                {
+                    b.HasOne("FotKlubb.Models.LoginProfileModel", "LoginId")
+                        .WithMany()
+                        .HasForeignKey("LoginId1")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("LoginId");
                 });
 #pragma warning restore 612, 618
         }

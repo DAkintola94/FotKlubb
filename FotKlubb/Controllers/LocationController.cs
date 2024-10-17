@@ -26,8 +26,9 @@ namespace FotKlubb.Controllers
             {
                 _ListPositionModel.Add(positionModel);
                 _context.Position_model.Add(positionModel); //add the list to the table. Also, 
-                                                            //we _context.whatsoever because we can have several entity setup         
-                _context.SaveChanges();
+                                                            //we _context.whatsoever because we can have several entity setup
+                                                            
+                _context.SaveChanges(); //this save the change to the database
                 _ilogger.LogInformation("Location added");
                 return View("ShowLocationInput", _ListPositionModel);
             }

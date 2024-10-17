@@ -29,7 +29,7 @@ services:
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: /.nuget/fallbackpackages
-      connectionStrings__DefaultConnection: Server=mariadb;Database=FootyBase;User=root;Password=Testingtesting1234
+      connectionStrings__DefaultConnection: Server=mariadb;Database=WebsiteBase;User=root;Password=Testingtesting1234
     image: fotklubb:dev
     labels:
       com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/bin/Debug/net8.0/FotKlubb.dll"'

@@ -13,6 +13,9 @@ namespace FotKlubb.Data
 
         public DbSet<CreateProfileModel> ProfileCreation { get; set; }
         public DbSet<PositionModel> Position_model { get; set; }
+        public DbSet<LoginProfileModel> LoginProfile { get; set; }
 
-    }
+        public DbSet<UsersActivity> UserActivity { get; set; }
+
+	}
 }

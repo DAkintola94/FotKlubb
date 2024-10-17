@@ -5,9 +5,11 @@ namespace FotKlubb.Models
     public class UsersActivity
     {
         [Key]
-        public int ActivityId { get; set; }
-        public Guid usersId { get; set; }
-        public DateTime ActivityDate { get; set; }
+        public Guid ActivityId { get; set; } = Guid.NewGuid();
+		public Guid LoginId { get; set; }
+        public DateTime ActivityDate { get; set; } = DateTime.Now;
+
+        public string? UserName { get; set; }
 
 
     }

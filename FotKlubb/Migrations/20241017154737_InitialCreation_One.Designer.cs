@@ -4,6 +4,7 @@ using FotKlubb.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FotKlubb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241017154737_InitialCreation_One")]
+    partial class InitialCreation_One
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,26 +102,6 @@ namespace FotKlubb.Migrations
                     b.HasKey("InterractorId");
 
                     b.ToTable("Position_model");
-                });
-
-            modelBuilder.Entity("FotKlubb.Models.UsersActivity", b =>
-                {
-                    b.Property<Guid>("ActivityId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)");
-
-                    b.Property<DateTime>("ActivityDate")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<Guid>("LoginId")
-                        .HasColumnType("char(36)");
-
-                    b.Property<string>("UserName")
-                        .HasColumnType("longtext");
-
-                    b.HasKey("ActivityId");
-
-                    b.ToTable("UserActivity");
                 });
 #pragma warning restore 612, 618
         }

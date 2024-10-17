@@ -2,7 +2,7 @@
 
 <h1 id="headlineCreate"> Opprett bruker</h1>
 <body class="create-profilestyle">
-    <form asp-controller="Profil" asp-action="ProfileAccess" method="post" class="form-class">
+    <form asp-controller="Profile" asp-action="ProfileAccess" method="post" class="form-class">
 
         <input class="inputClass" placeholder="Brukernavn" asp-for="Username" required />
 
@@ -17,7 +17,7 @@
 
         <input class="inputClass" placeholder="Gjenta-passord" asp-for="RepeatPassword" required />
 
-        <button class="button-class">Lag bruker</button>
+        <button type="submit" class="button-class">Lag bruker</button>
     </form>
 
 <p> Har du en bruker? Logg deg <a href="https://localhost:32769/Profile/Login"> inn</a></p>

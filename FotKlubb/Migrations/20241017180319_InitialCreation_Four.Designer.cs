@@ -4,6 +4,7 @@ using FotKlubb.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FotKlubb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241017180319_InitialCreation_Four")]
+    partial class InitialCreation_Four
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,7 +106,7 @@ namespace FotKlubb.Migrations
 
             modelBuilder.Entity("FotKlubb.Models.UsersActivity", b =>
                 {
-                    b.Property<Guid>("ActivityId")
+                    b.Property<Guid>("UsersActivityId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
@@ -116,7 +119,7 @@ namespace FotKlubb.Migrations
                     b.Property<string>("UserName")
                         .HasColumnType("longtext");
 
-                    b.HasKey("ActivityId");
+                    b.HasKey("UsersActivityId");
 
                     b.ToTable("UserActivity");
                 });
