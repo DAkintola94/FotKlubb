@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FotKlubb.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241017183804_InitialCreation_Five")]
-    partial class InitialCreation_Five
+    [Migration("20241027220251_InitialCreation")]
+    partial class InitialCreation
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,7 @@ namespace FotKlubb.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<byte?>("ImageData")
                         .HasColumnType("tinyint unsigned");
@@ -55,6 +55,9 @@ namespace FotKlubb.Migrations
                         .HasColumnType("varchar(20)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("ProfileCreation");
                 });
@@ -86,6 +89,9 @@ namespace FotKlubb.Migrations
                     b.Property<Guid>("InterractorId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
 
                     b.Property<string>("Description")
                         .IsRequired()

@@ -1,5 +1,6 @@
 ﻿using FotKlubb.Data;
 using FotKlubb.Models;
+using FotKlubb.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FotKlubb.Controllers
@@ -7,28 +8,29 @@ namespace FotKlubb.Controllers
     public class LocationController : Controller
     {
         private static List<PositionModel> _ListPositionModel = new List<PositionModel>();
+        private static LocationRepositorycs _locationRepository;
         private readonly ILogger<LocationController> _ilogger;
         private readonly AppDbContext _context;
 
-        public LocationController(ILogger<LocationController> iLogger, AppDbContext context)
+        public LocationController(ILogger<LocationController> iLogger, AppDbContext context, LocationRepositorycs locationRepo)
         {
             _ilogger = iLogger;
             _context = context;
-
+            _locationRepository = locationRepo;
         }
 
         [HttpPost]
-        public IActionResult MapGeo(PositionModel positionModel)
+        public async Task<ActionResult> MapGeo(PositionModel positionModel)
         {
 
 
             if (ModelState.IsValid)
             {
                 _ListPositionModel.Add(positionModel);
-                _context.Position_model.Add(positionModel); //add the list to the table. Also, 
-                                                            //we _context.whatsoever because we can have several entity setup
-                                                            
-                _context.SaveChanges(); //this save the change to the database
+                await _locationRepository.AddPosition(positionModel);
+                // Using repository to abstract away the database
+
+                                         
                 _ilogger.LogInformation("Location added");
                 return View("ShowLocationInput", _ListPositionModel);
             }

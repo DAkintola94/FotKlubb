@@ -1,4 +1,5 @@
 using FotKlubb.Data;
+using FotKlubb.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace FotKlubb
@@ -11,6 +12,12 @@ namespace FotKlubb
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<UserActivityRepository>();
+            builder.Services.AddScoped<ProfileCreationRepository>();
+            builder.Services.AddScoped<LocationRepositorycs>();
+
+
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
                 new MySqlServerVersion(new Version(11, 5, 2))));

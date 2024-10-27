@@ -33,7 +33,7 @@ namespace FotKlubb.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("varchar(255)");
 
                     b.Property<byte?>("ImageData")
                         .HasColumnType("tinyint unsigned");
@@ -52,6 +52,9 @@ namespace FotKlubb.Migrations
                         .HasColumnType("varchar(20)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("ProfileCreation");
                 });
@@ -83,6 +86,9 @@ namespace FotKlubb.Migrations
                     b.Property<Guid>("InterractorId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
 
                     b.Property<string>("Description")
                         .IsRequired()

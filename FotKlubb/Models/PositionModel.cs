@@ -10,6 +10,7 @@ namespace FotKlubb.Models
         public string Longitude { get; set; }
         public string Description { get; set; }
         //public IFormFile VideoFile { get; set; }
+        public DateOnly Date { get; set; } = DateOnly.FromDateTime(DateTime.Now);
 
     }
 }
