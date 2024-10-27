@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-warning border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" id="MainHeadLine"> FotKlubb </a>
-               
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,14 +25,39 @@
                                 <img src="~/Images/social_networking.svg" alt="Maplogo" style="width: 30px; height: 30px;" />
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Profile" asp-action="ProfileAccess">
+                        <!-- Profile Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle"
+                               href="#"
+                               id="navbarDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
                                 <img src="~/Images/person_118819.svg" alt="ExitLogo" style="width: 30px; height: 30px;" />
                             </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Profile" asp-action="Login">
+                                        Logg inn
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Profile" asp-action="ProfileAccess">
+                                        Lag bruker
+
+
+                                    </a>
+
+
+                                </li>
+
+                            </ul>
+
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Location" asp-action="MapGeo">
-                                <img src="~/Images/map.svg"  alt="Maplogo" style="width: 30px; height: 30px;"/>
+                                <img src="~/Images/map.svg" alt="Maplogo" style="width: 30px; height: 30px;" />
                             </a>
                         </li>
                         <li class="nav-item">
@@ -50,8 +75,9 @@
     </div>
 
     <footer class="border-top footer text-muted">
-    <!--This area is empty for now, its the text down below, where "about us" was-->
+        <!-- Footer content here -->
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
