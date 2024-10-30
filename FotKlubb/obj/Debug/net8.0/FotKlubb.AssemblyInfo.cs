@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FotKlubb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9b1db734aea07d9109d2740c9297b53cfb379d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50550c8c15af74eacf69b83d0e21115bb2bdd4a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FotKlubb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FotKlubb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

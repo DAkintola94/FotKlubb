@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\person_118819.svg"
     },
     {
+      "Id": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\Images\\shopping_bag.svg",
+      "PackagePath": "staticwebassets\\Images\\shopping_bag.svg"
+    },
+    {
       "Id": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\Images\\social_networking.svg",
       "PackagePath": "staticwebassets\\Images\\social_networking.svg"
     },
@@ -43,6 +47,14 @@
     {
       "Id": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\ShowLocation.js",
+      "PackagePath": "staticwebassets\\js\\ShowLocation.js"
+    },
+    {
+      "Id": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\geoJsonInput.js",
+      "PackagePath": "staticwebassets\\js\\geoJsonInput.js"
     },
     {
       "Id": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\showInput.js",

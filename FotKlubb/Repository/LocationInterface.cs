@@ -1,4 +1,4 @@
-﻿using FotKlubb.Models;
+﻿using FotKlubb.Models.LocationModel;
 
 namespace FotKlubb.Repository
 {

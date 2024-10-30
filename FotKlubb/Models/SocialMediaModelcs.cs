@@ -1,4 +1,6 @@
-﻿namespace FotKlubb.Models
+﻿using FotKlubb.Models.AccountModel;
+
+namespace FotKlubb.Models
 {
     public class SocialMediaModelcs
     {

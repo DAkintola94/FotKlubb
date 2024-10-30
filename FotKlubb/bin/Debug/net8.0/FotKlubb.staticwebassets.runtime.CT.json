@@ -99,11 +99,27 @@
       },
       "js": {
         "Children": {
+          "geoJsonInput.js": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "js/geoJsonInput.js"
+            },
+            "Patterns": null
+          },
           "showInput.js": {
             "Children": null,
             "Asset": {
               "ContentRootIndex": 0,
               "SubPath": "js/showInput.js"
+            },
+            "Patterns": null
+          },
+          "ShowLocation.js": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "js/ShowLocation.js"
             },
             "Patterns": null
           },

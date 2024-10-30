@@ -1,4 +1,5 @@
-﻿using FotKlubb.Models;
+﻿using FotKlubb.Models.AccountModel;
+using FotKlubb.Models.Activity;
 
 namespace FotKlubb.Repository
 {

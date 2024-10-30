@@ -1,5 +1,5 @@
 ﻿using FotKlubb.Data;
-using FotKlubb.Models;
+using FotKlubb.Models.Activity;
 
 namespace FotKlubb.Repository
 {

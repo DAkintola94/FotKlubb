@@ -94,11 +94,7 @@ namespace FotKlubb.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("Latitude")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Longitude")
+                    b.Property<string>("GeoJson")
                         .IsRequired()
                         .HasColumnType("longtext");
 

@@ -1,5 +1,6 @@
 ﻿using FotKlubb.Data;
-using FotKlubb.Models;
+using FotKlubb.Models.AccountModel;
+using FotKlubb.Models.Activity;
 using Microsoft.EntityFrameworkCore;
 using MySqlX.XDevAPI.CRUD;
 

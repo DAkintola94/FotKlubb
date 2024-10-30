@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace FotKlubb.Models
+namespace FotKlubb.Models.AccountModel
 {
     public class LoginProfileModel
     {

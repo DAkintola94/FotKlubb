@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KYQhyBq5x7+L+2xry7e21zhtwf96O0QxU6F3yRi6sqk=",
+  "Hash": "VNbFIalQrNzs8ku7HD1rfjBWo7IZTnEPwJA6J1+CLuk=",
   "Source": "FotKlubb",
   "BasePath": "_content/FotKlubb",
   "Mode": "Default",
@@ -226,6 +226,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\person_118819.svg"
     },
     {
+      "Identity": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\Images\\shopping_bag.svg",
+      "SourceId": "FotKlubb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\",
+      "BasePath": "_content/FotKlubb",
+      "RelativePath": "Images/shopping_bag.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\shopping_bag.svg"
+    },
+    {
       "Identity": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\Images\\social_networking.svg",
       "SourceId": "FotKlubb",
       "SourceType": "Discovered",
@@ -245,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\Images\\social_networking.svg"
     },
     {
+      "Identity": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\geoJsonInput.js",
+      "SourceId": "FotKlubb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\",
+      "BasePath": "_content/FotKlubb",
+      "RelativePath": "js/geoJsonInput.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\geoJsonInput.js"
+    },
+    {
       "Identity": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\showInput.js",
       "SourceId": "FotKlubb",
       "SourceType": "Discovered",
@@ -262,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\showInput.js"
+    },
+    {
+      "Identity": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\ShowLocation.js",
+      "SourceId": "FotKlubb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\",
+      "BasePath": "_content/FotKlubb",
+      "RelativePath": "js/ShowLocation.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ShowLocation.js"
     },
     {
       "Identity": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\site.js",

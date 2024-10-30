@@ -44,21 +44,36 @@
                                 <li>
                                     <a class="dropdown-item" asp-controller="Profile" asp-action="ProfileAccess">
                                         Lag bruker
-
-
                                     </a>
-
-
                                 </li>
-
                             </ul>
-
-
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Location" asp-action="MapGeo">
                                 <img src="~/Images/map.svg" alt="Maplogo" style="width: 30px; height: 30px;" />
                             </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle"
+                               href="#"
+                               id="navbarDropdown"
+                               role="button"
+                               data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                <img src="~/Images/shopping_bag.svg" alt="Shop" style="width: 30px; height: 30px;" />
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Market" asp-action="Shop">
+                                        Butikk
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" asp-controller="Market" asp-action="Cart">
+                                        Handlekurv
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs" id="navKontaktOss">Kontakt oss</a>

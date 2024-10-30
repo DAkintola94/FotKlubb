@@ -1,4 +1,6 @@
-﻿using FotKlubb.Models;
+﻿using FotKlubb.Models.AccountModel;
+using FotKlubb.Models.Activity;
+using FotKlubb.Models.LocationModel;
 using Microsoft.EntityFrameworkCore;
 
 namespace FotKlubb.Data

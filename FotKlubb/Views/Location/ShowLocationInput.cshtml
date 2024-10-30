@@ -1,37 +1,42 @@
-﻿@model List<FotKlubb.Models.PositionModel>
+﻿@model List<FotKlubb.Models.LocationModel.PositionModel>
 <h2> Kamp lokasjon registrert </h2>
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-	  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-	  crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-		crossorigin="">
-</script>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-<body>
-<div>
-	@foreach (var inputElements in Model)
-	{
-		
-		<p><strong>Latitude; </strong> @inputElements.Latitude</p>
-		<p><strong>Longitude; </strong> @inputElements.Longitude</p>
-		<p><strong>Beskrivelse; </strong> @inputElements.Description</p>
+</head>
 
-	}	
+<table class="table table-sortable">
+	<thread>
+		<tr>
+			<th> Dato</th>
+			<th> Melding ID</th>
+			<th> GeoJson </th>
+			<th> Beskrivelse </th>
+		</tr>
+	</thread>
+	<tbody>
+		@foreach (var tableElements in Model)
+		{
+			<tr>
+				<td>@tableElements.Date</td>
+				<td>@tableElements.InterractorId</td>
+				<td>@tableElements.GeoJson</td>
+				<td>@tableElements.Description</td>
+			</tr>
+		}
 
+	</tbody>
 
-</div>
+</table>
+<div id="map" style="height: 400px;"></div>
 
-</body>
-
-<div id="map" style="height: 500px;">
-</div>
 
 <script>
-
-	var modelFormatJson = @Html.Raw(Json.Serialize(Model))
-		Console.log(Model);
+	var geoChanges = @Json.Serialize(Model); //convert the asp.net Model into json, so js can work with it
 </script>
-<script src="~/js/showInput.js"></script>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="~/js/ShowLocation.js"></script>
 
