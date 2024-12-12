@@ -1,5 +1,6 @@
 ﻿using FotKlubb.Data;
-using FotKlubb.Models.LocationModel;
+using FotKlubb.Models.DomainModel;
+using FotKlubb.Models.ViewModel;
 using FotKlubb.Repository;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,12 +8,11 @@ namespace FotKlubb.Controllers
 {
     public class LocationController : Controller
     {
-        private static List<PositionModel> _ListPositionModel = new List<PositionModel>();
-        private static LocationRepositorycs _locationRepository;
+        private static ILocationRepository _locationRepository;
         private readonly ILogger<LocationController> _ilogger;
         private readonly AppDbContext _context;
 
-        public LocationController(ILogger<LocationController> iLogger, AppDbContext context, LocationRepositorycs locationRepo)
+        public LocationController(ILogger<LocationController> iLogger, AppDbContext context, ILocationRepository locationRepo)
         {
             _ilogger = iLogger;
             _context = context;
@@ -20,29 +20,21 @@ namespace FotKlubb.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> MapGeo(string geoJson, string description)
+        public async Task<ActionResult> MapGeo(PositionViewModel positionViewModel)
         {
-
-
-            var locationInput = new PositionModel
+            if(ModelState.IsValid) //if not null, we are attaching the data from the viewmodel (which we get from the html), to the domain model, which will go into the database
             {
-                InterractorId = Guid.NewGuid(), //  Generates a new Guid
-                GeoJson = geoJson,
-                Description = description,
-                Date = DateOnly.FromDateTime(DateTime.Now) // Date is set to current date
-            };
-
-            if (ModelState.IsValid)
-            {
-                _ListPositionModel.Add(locationInput);
-                await _locationRepository.AddPosition(locationInput);
-                // Using repository to abstract away the database
-                //adds the formulated model to the database through polymorphism
-
-                _ilogger.LogInformation("Location added");
-                return View("ShowLocationInput", _ListPositionModel);
+                var positionModel = new PositionModel //the variable of domain model (left) will be assigned the data from the viewmodel (right)
+                                                      //this works as long as they have the same data types
+                {
+                    GeoJson = positionViewModel.GeoJson,
+                    Description = positionViewModel.Description,
+                    Title = positionViewModel.Title,
+                    DateCreated = positionViewModel.DateCreated,
+                };
+                await _locationRepository.AddPosition(positionModel);
             }
-            return View();
+            return NotFound();
         }
 
         [HttpGet]
@@ -54,7 +46,7 @@ namespace FotKlubb.Controllers
         [HttpGet]
         public IActionResult ShowLocationInput()
         {
-            return View(_ListPositionModel);
+            return View();
         }
     }
 }

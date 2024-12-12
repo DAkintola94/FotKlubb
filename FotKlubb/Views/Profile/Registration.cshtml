@@ -1,0 +1,25 @@
+﻿@using FotKlubb.Models.ViewModel
+@model RegistrationViewModel
+
+<h1 id="headlineCreate"> Opprett bruker</h1>
+<body class="create-profilestyle">
+    <form method="post" enctype="multipart/form-data" class="form-class">
+
+        <input class="inputClass" placeholder="Brukernavn" asp-for="Username" required />
+
+        <input class="inputClass" placeholder="Email" asp-for="Email" required />
+
+        <input class="inputClass" placeholder="Alder" asp-for="Age" required />
+
+        <label for="fileInputId" class="custom-file-label">Profil bilde</label>
+        <input class="inputClass" id="fileInputId" type="file" name="file" accept="image/png, image/jpeg" asp-for="ImageUrl" />
+
+        <input class="inputClass" placeholder="Passord" asp-for="Password" required />
+
+        <input class="inputClass" placeholder="Gjenta-passord" asp-for="RepeatPassword" required />
+
+        <button type="submit" class="button-class">Lag bruker</button>
+    </form>
+
+    <p> Har du en bruker? Logg deg <a href="https://localhost:32769/Profile/Login"> inn</a></p>
+</body>

@@ -1,46 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\",
+  "WorkspaceRootPath": "C:\\Users\\black\\source\\repos\\FotKlubb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\models\\shopmodel\\marketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\shopmodel\\marketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\views\\location\\showlocationinput.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\views\\location\\showlocationinput.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\models\\shopmodel\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\shopmodel\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\models\\locationmodel\\positionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\locationmodel\\positionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\models\\activity\\usersactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\activity\\usersactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\models\\accountmodel\\loginprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\accountmodel\\loginprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\models\\accountmodel\\createprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\accountmodel\\createprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\controllers\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\controllers\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\views\\market\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\views\\market\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\eier\\source\\repos\\fotklubb\\fotklubb\\views\\market\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\views\\market\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\views\\location\\mapgeo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\views\\location\\mapgeo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,145 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PositionModel.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\LocationModel\\PositionModel.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Models\\LocationModel\\PositionModel.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\LocationModel\\PositionModel.cs",
-              "RelativeToolTip": "FotKlubb\\Models\\LocationModel\\PositionModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:58:09.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersActivity.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\Activity\\UsersActivity.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Models\\Activity\\UsersActivity.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\Activity\\UsersActivity.cs",
-              "RelativeToolTip": "FotKlubb\\Models\\Activity\\UsersActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:57:51.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginProfileModel.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\AccountModel\\LoginProfileModel.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Models\\AccountModel\\LoginProfileModel.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\AccountModel\\LoginProfileModel.cs",
-              "RelativeToolTip": "FotKlubb\\Models\\AccountModel\\LoginProfileModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:51:58.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryModel.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\ShopModel\\CategoryModel.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Models\\ShopModel\\CategoryModel.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\ShopModel\\CategoryModel.cs",
-              "RelativeToolTip": "FotKlubb\\Models\\ShopModel\\CategoryModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:56:26.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MarketModel.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\ShopModel\\MarketModel.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Models\\ShopModel\\MarketModel.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\ShopModel\\MarketModel.cs",
-              "RelativeToolTip": "FotKlubb\\Models\\ShopModel\\MarketModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:47:46.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateProfileModel.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\AccountModel\\CreateProfileModel.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Models\\AccountModel\\CreateProfileModel.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Models\\AccountModel\\CreateProfileModel.cs",
-              "RelativeToolTip": "FotKlubb\\Models\\AccountModel\\CreateProfileModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:51:34.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Market\\Cart.cshtml",
-              "RelativeDocumentMoniker": "FotKlubb\\Views\\Market\\Cart.cshtml",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Market\\Cart.cshtml",
-              "RelativeToolTip": "FotKlubb\\Views\\Market\\Cart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ShowLocationInput.cshtml",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
+              "RelativeDocumentMoniker": "FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
+              "RelativeToolTip": "FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T05:41:54.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Shop.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Market\\Shop.cshtml",
-              "RelativeDocumentMoniker": "FotKlubb\\Views\\Market\\Shop.cshtml",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Market\\Shop.cshtml",
-              "RelativeToolTip": "FotKlubb\\Views\\Market\\Shop.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T05:35:50.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Market.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\Market.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Controllers\\Market.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\Market.cs",
-              "RelativeToolTip": "FotKlubb\\Controllers\\Market.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T05:34:58.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LocationController.cs",
-              "DocumentMoniker": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\LocationController.cs",
-              "RelativeDocumentMoniker": "FotKlubb\\Controllers\\LocationController.cs",
-              "ToolTip": "C:\\Users\\Eier\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\LocationController.cs",
-              "RelativeToolTip": "FotKlubb\\Controllers\\LocationController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T21:30:32.061Z",
+              "WhenOpened": "2024-12-12T22:58:06.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -196,7 +43,28 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapGeo.cshtml",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\MapGeo.cshtml",
+              "RelativeDocumentMoniker": "FotKlubb\\Views\\Location\\MapGeo.cshtml",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\MapGeo.cshtml",
+              "RelativeToolTip": "FotKlubb\\Views\\Location\\MapGeo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T22:58:02.261Z",
+              "EditorCaption": ""
             }
           ]
         }
