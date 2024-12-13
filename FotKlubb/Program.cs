@@ -13,9 +13,10 @@ namespace FotKlubb
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddScoped<UserActivityRepository>();
-            builder.Services.AddScoped<ProfileCreationRepository>();
-            builder.Services.AddScoped<LocationRepositorycs>();
+            builder.Services.AddScoped<IUserActivityRepository, UserActivityRepository>();
+            builder.Services.AddScoped<ILocationRepository, LocationRepository>();
+            builder.Services.AddScoped<IMarketRepository, MarketRepository>();
+            builder.Services.AddScoped<IUsersPostRepository, UsersPostRepository>();
 
 
             builder.Services.AddDbContext<AppDbContext>(options =>
