@@ -27,7 +27,7 @@ namespace FotKlubb.Controllers
                 var positionModel = new PositionModel //the variable of domain model (left) will be assigned the data from the viewmodel (right)
                                                       //this works as long as they have the same data types
                 {
-                    GeoJson = positionViewModel.GeoJson,
+                    Address = positionViewModel.GeoJson,
                     Description = positionViewModel.Description,
                     Title = positionViewModel.Title,
                     DateCreated = positionViewModel.DateCreated,

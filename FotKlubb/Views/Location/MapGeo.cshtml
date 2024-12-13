@@ -1,6 +1,5 @@
 ﻿@model PositionModel
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +19,11 @@
     <form method="post" asp-controller="Location">
         <div>
             <input type="hidden" id="geoId" name="geoJson" class="form-control" />
+
+			<input type="Title" id="date" name="date" class="form-control" asp-for="Title" placeholder="Tittel" required />
+
             <input type="text" id="description" name="description" placeholder="Beskrivelse av kampen" class="form-control" asp-for="Description" required />
+
             <button type="submit">Send</button>
         </div>
     </form>

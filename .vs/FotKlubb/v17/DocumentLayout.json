@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\views\\location\\showlocationinput.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\wwwroot\\js\\showlocation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\wwwroot\\js\\showlocation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\views\\location\\mapgeo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\views\\location\\mapgeo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\controllers\\locationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\wwwroot\\js\\geojsoninput.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\wwwroot\\js\\geojsoninput.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\models\\domainmodel\\positionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\models\\domainmodel\\positionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|c:\\users\\black\\source\\repos\\fotklubb\\fotklubb\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA806E8-FE21-4670-8AA6-9A6617B1E292}|FotKlubb\\FotKlubb.csproj|solutionrelative:fotklubb\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +38,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PositionModel.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Models\\DomainModel\\PositionModel.cs",
+              "RelativeDocumentMoniker": "FotKlubb\\Models\\DomainModel\\PositionModel.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Models\\DomainModel\\PositionModel.cs",
+              "RelativeToolTip": "FotKlubb\\Models\\DomainModel\\PositionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:02:14.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowLocation.js",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\ShowLocation.js",
+              "RelativeDocumentMoniker": "FotKlubb\\wwwroot\\js\\ShowLocation.js",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\ShowLocation.js",
+              "RelativeToolTip": "FotKlubb\\wwwroot\\js\\ShowLocation.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-13T01:00:49.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "FotKlubb\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "FotKlubb\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T00:38:25.66Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,9 +87,22 @@
               "RelativeDocumentMoniker": "FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
               "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
               "RelativeToolTip": "FotKlubb\\Views\\Location\\ShowLocationInput.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-12T22:58:06.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LocationController.cs",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\LocationController.cs",
+              "RelativeDocumentMoniker": "FotKlubb\\Controllers\\LocationController.cs",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Controllers\\LocationController.cs",
+              "RelativeToolTip": "FotKlubb\\Controllers\\LocationController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:01:38.966Z",
               "EditorCaption": ""
             },
             {
@@ -55,15 +127,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MapGeo.cshtml",
               "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\MapGeo.cshtml",
               "RelativeDocumentMoniker": "FotKlubb\\Views\\Location\\MapGeo.cshtml",
               "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\Views\\Location\\MapGeo.cshtml",
               "RelativeToolTip": "FotKlubb\\Views\\Location\\MapGeo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-12T22:58:02.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "geoJsonInput.js",
+              "DocumentMoniker": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\geoJsonInput.js",
+              "RelativeDocumentMoniker": "FotKlubb\\wwwroot\\js\\geoJsonInput.js",
+              "ToolTip": "C:\\Users\\black\\source\\repos\\FotKlubb\\FotKlubb\\wwwroot\\js\\geoJsonInput.js",
+              "RelativeToolTip": "FotKlubb\\wwwroot\\js\\geoJsonInput.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-13T01:00:53.436Z",
               "EditorCaption": ""
             }
           ]
