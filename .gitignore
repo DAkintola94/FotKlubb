@@ -1,7 +1,8 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
+.vs/
+obj/
 /.vs/FotKlubb/copilot-chat/7601ba85/sessions/0f851614-3283-4092-94be-30d7e6d0884c
 /.vs/FotKlubb/copilot-chat/7601ba85/sessions/3b7ec8e2-6522-4b53-b63c-7f4e6c6c5e12
 /.vs/FotKlubb/copilot-chat/7601ba85/sessions/49b29ee2-5038-4da6-b9cc-4216208564b3
@@ -218,3 +219,15 @@
 /.vs/FotKlubb/FileContentIndex/db06f009-ec59-4de5-9df5-6123e35e61bd.vsidx
 /.vs/FotKlubb/FileContentIndex/e69fe7bd-f39c-473e-8f9e-b7cd446b1dd9.vsidx
 /.vs/FotKlubb/FileContentIndex/e2600a82-582e-4776-a05c-3544aa1b517b.vsidx
+/FotKlubb/obj/Debug/net8.0/FotKlubb.AssemblyInfo.cs
+/FotKlubb/obj/Debug/net8.0/FotKlubb.AssemblyInfoInputs.cache
+/FotKlubb/obj/Debug/net8.0/FotKlubb.assets.cache
+/FotKlubb/obj/Debug/net8.0/FotKlubb.csproj.AssemblyReference.cache
+/FotKlubb/obj/Debug/net8.0/FotKlubb.GeneratedMSBuildEditorConfig.editorconfig
+/FotKlubb/obj/FotKlubb.csproj.nuget.dgspec.json
+/FotKlubb/obj/FotKlubb.csproj.nuget.g.props
+/FotKlubb/obj/project.assets.json
+/FotKlubb/obj/project.nuget.cache
+/.vs/FotKlubb/v17/DocumentLayout.backup.json
+/.vs/FotKlubb/v17/DocumentLayout.json
+/.vs/FotKlubb/v17/.suo
